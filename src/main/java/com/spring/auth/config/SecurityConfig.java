@@ -24,7 +24,7 @@ public class SecurityConfig {
                 .disable()
                 .authorizeHttpRequests()
                 .requestMatchers(
-                        "/**"
+                        "/api/auth/**"
                 )
                 .permitAll()
                 .anyRequest()
